@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		635E69CD1CC4A08E00C67689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69CC1CC4A08E00C67689 /* AppDelegate.swift */; };
-		635E69CF1CC4A08E00C67689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69CE1CC4A08E00C67689 /* ViewController.swift */; };
 		635E69D21CC4A08E00C67689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E69D01CC4A08E00C67689 /* Main.storyboard */; };
 		635E69D41CC4A08E00C67689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635E69D31CC4A08E00C67689 /* Assets.xcassets */; };
 		635E69D71CC4A08E00C67689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E69D51CC4A08E00C67689 /* LaunchScreen.storyboard */; };
 		635E69E21CC4A08E00C67689 /* InteractiveTransitionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69E11CC4A08E00C67689 /* InteractiveTransitionExampleTests.swift */; };
 		635E69ED1CC4A08E00C67689 /* InteractiveTransitionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69EC1CC4A08E00C67689 /* InteractiveTransitionExampleUITests.swift */; };
+		635E69FD1CC4A0B400C67689 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69FC1CC4A0B400C67689 /* MainViewController.swift */; };
+		635E69FF1CC4A0BA00C67689 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E69FE1CC4A0BA00C67689 /* MenuViewController.swift */; };
+		635E6A021CC4A45100C67689 /* d2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635E6A001CC4A45100C67689 /* d2.jpg */; };
+		635E6A031CC4A45100C67689 /* c2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635E6A011CC4A45100C67689 /* c2.jpg */; };
+		635E6A051CC4A50000C67689 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E6A041CC4A50000C67689 /* TransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		635E69C91CC4A08E00C67689 /* InteractiveTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635E69CC1CC4A08E00C67689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		635E69CE1CC4A08E00C67689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		635E69D11CC4A08E00C67689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635E69D31CC4A08E00C67689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635E69D61CC4A08E00C67689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		635E69E81CC4A08E00C67689 /* InteractiveTransitionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveTransitionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635E69EC1CC4A08E00C67689 /* InteractiveTransitionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionExampleUITests.swift; sourceTree = "<group>"; };
 		635E69EE1CC4A08E00C67689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635E69FC1CC4A0B400C67689 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		635E69FE1CC4A0BA00C67689 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		635E6A001CC4A45100C67689 /* d2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d2.jpg; sourceTree = "<group>"; };
+		635E6A011CC4A45100C67689 /* c2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c2.jpg; sourceTree = "<group>"; };
+		635E6A041CC4A50000C67689 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +105,14 @@
 		635E69CB1CC4A08E00C67689 /* InteractiveTransitionExample */ = {
 			isa = PBXGroup;
 			children = (
+				635E69FC1CC4A0B400C67689 /* MainViewController.swift */,
+				635E69FE1CC4A0BA00C67689 /* MenuViewController.swift */,
 				635E69CC1CC4A08E00C67689 /* AppDelegate.swift */,
-				635E69CE1CC4A08E00C67689 /* ViewController.swift */,
 				635E69D01CC4A08E00C67689 /* Main.storyboard */,
+				635E6A041CC4A50000C67689 /* TransitionManager.swift */,
 				635E69D31CC4A08E00C67689 /* Assets.xcassets */,
+				635E6A001CC4A45100C67689 /* d2.jpg */,
+				635E6A011CC4A45100C67689 /* c2.jpg */,
 				635E69D51CC4A08E00C67689 /* LaunchScreen.storyboard */,
 				635E69D81CC4A08E00C67689 /* Info.plist */,
 			);
@@ -229,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635E6A031CC4A45100C67689 /* c2.jpg in Resources */,
 				635E69D71CC4A08E00C67689 /* LaunchScreen.storyboard in Resources */,
 				635E69D41CC4A08E00C67689 /* Assets.xcassets in Resources */,
 				635E69D21CC4A08E00C67689 /* Main.storyboard in Resources */,
+				635E6A021CC4A45100C67689 /* d2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635E69CF1CC4A08E00C67689 /* ViewController.swift in Sources */,
+				635E6A051CC4A50000C67689 /* TransitionManager.swift in Sources */,
+				635E69FD1CC4A0B400C67689 /* MainViewController.swift in Sources */,
 				635E69CD1CC4A08E00C67689 /* AppDelegate.swift in Sources */,
+				635E69FF1CC4A0BA00C67689 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
